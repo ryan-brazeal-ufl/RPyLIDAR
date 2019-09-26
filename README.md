@@ -41,7 +41,7 @@ RPyLidar Class Object
         Change colours of pygame objects (points, rays, background, etc.)
    
     Methods of Interest:
-      constructor (init) - ('port info', baud_rate, timeout, screen_size, draw_rays_at_start, DEBUG_MODE)
+        constructor (init) - ('port info', baud_rate, timeout, screen_size, draw_rays_at_start, DEBUG_MODE)
 	  connect()
 	  disconnect()
 	  get_device_info()
