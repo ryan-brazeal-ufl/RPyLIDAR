@@ -6,6 +6,12 @@ Python dependencies:
 &emsp;[PySerial](https://pythonhosted.org/pyserial/)<br>
 &emsp;[PyGame](https://www.pygame.org)
 
+## NOTES:
+- The code has operating system (OS)specific lines of code to ensure proper fonts and file paths are used for each system
+- Search for MAC, WINDOWS or LINUX within the code and comment/uncomment the appropriate lines of code for your system
+- In a future version, the OS will be auto-detected and the proper code automatically applied
+- Tested with RPLIDAR A3 sensor but unfortunately because the SlamTec SDK documentation is incomplete, the new 16K point density is not currently supported (apparently they support the new 16K obs. by asking us to reverse engineer their C++ code, or view their patent ? WTF?)
+
 RPyLidar Viewer Instructions:
 
     Mouse: 
