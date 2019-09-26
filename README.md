@@ -42,19 +42,19 @@ RPyLidar Class Object
    
     Methods of Interest:
         constructor (init) - ('port info', baud_rate, timeout, screen_size, draw_rays_at_start, DEBUG_MODE)
-	  connect()
-	  disconnect()
-	  get_device_info()
-	  get_device_health()
-	  get_sample_rate()
-	  start_standard_scan() - 4000 pulses/rec scan rate
-	  start_express_scan() - 8000 pulses/sec scan rate
-	  start_motor_slow() - slowest useable rotation rate
-	  start_motor_14() - 1/4 max rotation rate
-	  start_motor_half() - 1/2 max rotation rate
-	  start_motor_34() - 3/4 max rotation rate
-	  start_motor_max() - fastest/max rotation rate
-	  stop_scan()
-	  reset()
+	    connect()
+	    disconnect()
+	    get_device_info()
+	    get_device_health()
+	    get_sample_rate()
+	    start_standard_scan() - 4000 pulses/rec scan rate
+	    start_express_scan() - 8000 pulses/sec scan rate
+	    start_motor_slow() - slowest useable rotation rate
+	    start_motor_14() - 1/4 max rotation rate
+	    start_motor_half() - 1/2 max rotation rate
+	    start_motor_34() - 3/4 max rotation rate
+	    start_motor_max() - fastest/max rotation rate
+	    stop_scan()
+	    reset()
     
     
