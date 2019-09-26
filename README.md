@@ -1,6 +1,11 @@
 # RPyLIDAR
 Python 3 driver and integrated PyGame point cloud viewer for RPLIDAR sensors
 
+Python dependencies:
+
+&emsp;[PySerial](https://pythonhosted.org/pyserial/)<br>
+&emsp;[PyGame](https://www.pygame.org)
+
 RPyLidar Viewer Instructions:
 
     Mouse: 
